@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        AWS_ACCOUNT_ID="6817-3746-7003"
+        AWS_ACCOUNT_ID="681737467003"
         AWS_DEFAULT_REGION="us-east-1" 
 	CLUSTER_NAME="default"
 	SERVICE_NAME="nodejs-demo-devops-service"
