@@ -6,7 +6,7 @@ pipeline {
 	CLUSTER_NAME="default"
 	SERVICE_NAME="nodejs-demo-devops-service"
 	TASK_DEFINITION_NAME="first-run-task-definition"
-	DESIRED_COUNT="3"
+	DESIRED_COUNT="1"
         IMAGE_REPO_NAME="681737467003.dkr.ecr.us-east-1.amazonaws.com/demo"
         IMAGE_TAG="${env.BUILD_ID}"
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
